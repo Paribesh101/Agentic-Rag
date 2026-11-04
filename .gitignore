@@ -1,0 +1,22 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Google credentials and tokens
+credentials.json
+google_token.pickle
+token.pickle
+
+# Python virtual environments
+venv/
+nexus-env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
